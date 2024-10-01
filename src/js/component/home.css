@@ -1,0 +1,51 @@
+button {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 70px;
+    transition: all ease 0.5s;
+  }
+  
+  button:hover {
+    color: rgb(214, 25, 104);
+  }
+  
+  span {
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+  }
+  
+  li {
+    transition: 0.5s;
+    border-radius: 5px;
+    border-right: solid rgb(255, 255, 255) 1px;
+    border-left: solid rgb(255, 255, 255) 1px;
+    border-top: solid rgb(255, 255, 255) 1px;
+    height: 60px;
+  }
+  
+  li:hover span {
+    color: rgb(214, 25, 104);
+    z-index: 10;
+  }
+  
+  li:hover {
+    border: solid rgb(214, 25, 104) 1.5px;
+  }
+  
+  .controls {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(21, 27, 35, 0.8);
+    padding: 10px 0;
+  }
+  
+  .controls button {
+    margin: 0 10px;
+  }
+  
+  
